@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3817045.svg)](https://doi.org/10.5281/zenodo.3817045)
+
+
 # Indian brain templates (IBTs) and atlases (IBTAs)
 
 ver = 1.0
