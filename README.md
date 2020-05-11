@@ -22,9 +22,12 @@ study:
   W. Cox, Gunter Schumann, Rose Dawn Bharath, Vivek Benegal
 
 <p>
-<a href="https://doi.org/10.1101/2020.05.08.077172">
+<a href="https://www.biorxiv.org/content/10.1101/2020.05.08.077172v1">
    <img src="https://img.shields.io/badge/bioRxiv-preprint-67baea.svg" />
 </a>
+<a href="https://doi.org/10.1101/2020.05.08.077172">
+   <img src="https://img.shields.io/badge/DOI-10.1101%2F2020.05.08.077172-informational" />
+</a>	
 </p>
 
 ## This sample set was divided into 5 groups based on age: #
@@ -64,13 +67,20 @@ For a given age-group ${C}
 \* MPM, maximum probability map
 
 
-## To download the IBT dataset, run:
+## Download the IBT datasets:
+
+Either run the following AFNI command:
+
 ```
 @Install_IBT_DATASETS
 ```
-The install script is also available for download from [Zenodo](https://zenodo.org/record/3817045/files/hollabharath/IndiaBrainTemplates-v1.0.0.zip)
+Or [download the installer script from Zenodo](https://zenodo.org/record/3817045/files/hollabharath/IndiaBrainTemplates-v1.0.0.zip), and run:
 
-## Citing Us
+```
+tcsh @Install_IBT_DATASETS
+```
+
+## Citation
 
 The paper is now up at [bioRxiv](https://www.biorxiv.org/content/10.1101/2020.05.08.077172v1). It will be submitted to a journal in due course. It'd be wonderful if you would cite the paper if you use the methods or data set.
 ```
